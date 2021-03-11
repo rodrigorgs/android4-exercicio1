@@ -38,6 +38,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editNome))
                 .perform(typeText("1234"));
 
+        closeSoftKeyboard();
         onView(withId(R.id.btnCumprimentar))
                 .perform(click());
 
@@ -50,6 +51,7 @@ public class CorrecaoTest {
         onView(withId(R.id.editNome))
                 .perform(typeText("1234"));
 
+        closeSoftKeyboard();
         onView(withId(R.id.btnCumprimentar))
                 .perform(click());
 
